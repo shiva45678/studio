@@ -4,16 +4,16 @@ import Link from 'next/link';
 export default function HeroSection() {
   return (
     <section className="relative h-[calc(80vh-4rem)] min-h-[500px] flex items-center justify-center text-white overflow-hidden bg-gradient-to-br from-primary via-primary/90 to-accent/80">
-      {/* Background image removed, using a gradient background instead */}
+      {/* Background gradient instead of image */}
       <div className="relative z-10 container mx-auto px-4 text-center space-y-6 py-16">
         <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight drop-shadow-lg">
           <span className="block">Newton’s AI Hospital</span>
         </h1>
-        <div className="space-y-1"> {/* Wrapper to control spacing between these two lines */}
+        <div className="space-y-1"> {/* Wrapper to control spacing */}
           <p className="text-lg md:text-2xl font-medium text-gray-200 drop-shadow-md">
-            Dr. Shiva Kolli, MBBS (Founder of Newton's AI & Newton’s AI Hospital)
+            Dr. Shiva Kolli, MBBS (Founder of Newtons Ai)
           </p>
-          <p className="text-base md:text-xl font-medium text-gray-300 drop-shadow-md">
+          <p className="text-base md:text-xl font-medium text-gray-300/90 drop-shadow-md">
             Powered by Newton’s AI
           </p>
         </div>
