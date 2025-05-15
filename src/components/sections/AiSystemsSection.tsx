@@ -1,17 +1,18 @@
+
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Stethoscope, Brain, Zap, ClipboardList, PillIcon, Hospital, UserCog, BedDouble, ArrowRight } from 'lucide-react';
 import Link from "next/link";
 
 const aiSystems = [
-  { icon: Stethoscope, title: "AI OPD Assistant", description: "Fast & accurate differential diagnosis.", link: "#opd-assistant" },
-  { icon: Brain, title: "AI ICU Assistant", description: "Predicts complications, monitors vitals.", link: "#icu-assistant" },
-  { icon: Zap, title: "Emergency AI", description: "Real-time emergency stabilization tools.", link: "#emergency-ai" },
-  { icon: ClipboardList, title: "Treatment Planner", description: "Guideline-based, branch-logic therapy plans.", link: "#treatment-planner" },
-  { icon: PillIcon, title: "Drug Safety AI", description: "Avoid drug interactions & toxic combos.", link: "#drug-safety" },
-  { icon: Hospital, title: "AI HMS System", description: "Automated hospital operations.", link: "#hms-system" },
-  { icon: UserCog, title: "AI Agent for Doctors", description: "Your AI co-doctor, 24x7.", link: "#ai-agent" },
-  { icon: BedDouble, title: "AI-Integrated Wards", description: "Smart ward monitoring and alerts.", link: "#ai-wards" },
+  { icon: Hospital, title: "AI HMS System", description: "Automated hospital operations.", link: "https://hms.newtons.in" },
+  { icon: BedDouble, title: "AI-Integrated Wards", description: "Smart ward monitoring and alerts.", link: "https://group.newtons.in" },
+  { icon: Stethoscope, title: "AI OPD Assistant", description: "Fast & accurate differential diagnosis.", link: "https://newtons.in" },
+  { icon: Brain, title: "AI ICU Assistant", description: "Predicts complications, monitors vitals.", link: "https://newtons.in" },
+  { icon: Zap, title: "Emergency AI", description: "Real-time emergency stabilization tools.", link: "https://newtons.in" },
+  { icon: ClipboardList, title: "Treatment Planner", description: "Guideline-based, branch-logic therapy plans.", link: "https://newtons.in" },
+  { icon: PillIcon, title: "Drug Safety AI", description: "Avoid drug interactions & toxic combos.", link: "https://newtons.in" },
+  { icon: UserCog, title: "AI Agent for Doctors", description: "Your AI co-doctor, 24x7.", link: "https://newtons.in" },
 ];
 
 export default function AiSystemsSection() {
@@ -40,7 +41,11 @@ export default function AiSystemsSection() {
                   {system.description}
                 </CardDescription>
                 <Button asChild variant="outline" className="w-full border-primary text-primary hover:bg-primary hover:text-primary-foreground group-hover:border-accent group-hover:text-accent group-hover:bg-accent group-hover:text-accent-foreground active:shadow-[0_0_15px_2px_hsl(var(--accent))] transition-all duration-300">
-                  <Link href={system.link}>
+                  <Link 
+                    href={system.link}
+                    target={system.link.startsWith('http') ? "_blank" : undefined}
+                    rel={system.link.startsWith('http') ? "noopener noreferrer" : undefined}
+                  >
                     Learn More <ArrowRight className="ml-2 h-4 w-4" />
                   </Link>
                 </Button>
