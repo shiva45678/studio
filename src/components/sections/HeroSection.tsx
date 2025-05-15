@@ -11,7 +11,7 @@ export default function HeroSection() {
         </h1>
         <div className="space-y-1"> {/* Wrapper to control spacing between these two lines */}
           <p className="text-lg md:text-2xl font-medium text-gray-200 drop-shadow-md">
-            Dr. Shiva, MBBS (Founder of Newton's AI & Newton’s AI Hospital)
+            Dr. Shiva Kolli, MBBS (Founder of Newton's AI & Newton’s AI Hospital)
           </p>
           <p className="text-base md:text-xl font-medium text-gray-300 drop-shadow-md">
             Powered by Newton’s AI
