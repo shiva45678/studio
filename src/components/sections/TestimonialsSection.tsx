@@ -50,7 +50,7 @@ export default function TestimonialsSection() {
         </div>
         <div className="text-center mt-12">
           <Button asChild size="lg" variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-colors duration-300">
-            <Link href="#more-reviews">See More Reviews</Link>
+            <Link href="#contact">See More Reviews</Link>
           </Button>
         </div>
       </div>

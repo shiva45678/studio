@@ -36,14 +36,14 @@ export default function ContactSection() {
               ))}
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
                 <Button asChild size="lg" className="flex-1 bg-accent hover:bg-accent/90 text-accent-foreground transition-transform hover:scale-105">
-                  <Link href="#book-consultation">
+                  <a href="tel:+916363111328">
                     <CalendarPlus className="mr-2 h-5 w-5" /> Book a Consultation
-                  </Link>
+                  </a>
                 </Button>
                 <Button asChild variant="outline" size="lg" className="flex-1 border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-transform hover:scale-105">
-                  <Link href="#partner-with-us">
+                  <a href="mailto:shiva@newtons.in">
                     <UserPlus className="mr-2 h-5 w-5" /> Partner with Us
-                  </Link>
+                  </a>
                 </Button>
               </div>
             </CardContent>
