@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export default function ContactSection() {
   const contactDetails = [
-    { icon: MapPin, text: "opposite to post office, Nandigama 521185", href: "https://maps.app.goo.gl/zVdHmd7Wb665VbtCA" },
+    { icon: MapPin, text: "opposite to post office, Nandigama 521185", href: "https://maps.app.goo.gl/PZ236vTVNniU7Ppk6" },
     { icon: Phone, text: "+916363111328", href: "tel:+916363111328" },
     { icon: Mail, text: "shiva@newtons.in", href: "mailto:shiva@newtons.in" },
   ];
@@ -34,7 +34,7 @@ export default function ContactSection() {
                 </a>
               ))}
               <div className="pt-4">
-                 <Link href="https://maps.app.goo.gl/zVdHmd7Wb665VbtCA" target="_blank" rel="noopener noreferrer" className="block w-full mb-4">
+                 <Link href="https://maps.app.goo.gl/PZ236vTVNniU7Ppk6" target="_blank" rel="noopener noreferrer" className="block w-full mb-4">
                     <Button variant="outline" className="w-full border-primary text-primary hover:bg-primary hover:text-primary-foreground">
                     View on Map
                     </Button>
