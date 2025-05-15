@@ -28,9 +28,6 @@ export default function Header() {
               {link.label}
             </Link>
           ))}
-          <Button asChild variant="default" className="bg-accent hover:bg-accent/90 text-accent-foreground">
-            <Link href="#contact">Book Appointment</Link>
-          </Button>
         </nav>
 
         <div className="md:hidden">
@@ -55,9 +52,6 @@ export default function Header() {
                     {link.label}
                   </Link>
                 ))}
-                <Button asChild variant="default" className="bg-accent hover:bg-accent/90 text-accent-foreground w-full mt-4">
-                  <Link href="#contact">Book Appointment</Link>
-                </Button>
               </nav>
             </SheetContent>
           </Sheet>
