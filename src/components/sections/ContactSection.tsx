@@ -7,8 +7,8 @@ import Link from 'next/link';
 export default function ContactSection() {
   const contactDetails = [
     { icon: MapPin, text: "opposite to post office, Nandigama 521185", href: "https://maps.google.com/?q=opposite+to+post+office,+Nandigama+521185" },
-    { icon: Phone, text: "+91 98765 43210", href: "tel:+919876543210" },
-    { icon: Mail, text: "contact@newtonai.hospital", href: "mailto:contact@newtonai.hospital" },
+    { icon: Phone, text: "+91 63631 11328", href: "tel:+916363111328" },
+    { icon: Mail, text: "shiva@newtons.in", href: "mailto:shiva@newtons.in" },
   ];
 
   return (
