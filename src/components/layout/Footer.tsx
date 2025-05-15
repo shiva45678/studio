@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="bg-muted/50 border-t">
       <div className="container py-8 text-center text-sm text-muted-foreground">
         <div className="mb-4">
-          <p className="font-semibold">Made with ❤️ by Dr. Shiva Kolli, MBBS — Founder of Newtons Ai</p>
+          <p className="font-semibold">Made with ❤️ by Dr. Shiva Kolli, MBBS | Founder of Newtons Ai</p>
         </div>
         <div className="flex justify-center space-x-4 mb-4">
           <Link href="#about" className="hover:text-primary transition-colors">About</Link>
