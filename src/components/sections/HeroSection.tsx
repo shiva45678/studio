@@ -14,16 +14,13 @@ export default function HeroSection() {
             Dr. Shiva Kolli, MBBS | Founder of Newtons Ai
           </p>
           <p className="text-base md:text-xl font-medium text-gray-300/90 drop-shadow-md">
-            Powered by Newtons AI
+            Powered by Newtons Ai
           </p>
         </div>
         <p className="text-xl md:text-3xl font-semibold text-teal-300 drop-shadow-md">
           Revolutionizing Healthcare in India.
         </p>
         <div className="flex flex-col sm:flex-row justify-center gap-4 pt-4">
-          <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground transition-transform hover:scale-105 shadow-lg">
-            <Link href="#contact">Book Appointment</Link>
-          </Button>
           <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white/10 transition-transform hover:scale-105 shadow-lg bg-transparent hover:text-accent-foreground">
             <Link href="#ai-systems">Explore AI Systems</Link>
           </Button>
