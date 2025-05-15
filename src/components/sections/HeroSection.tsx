@@ -10,7 +10,9 @@ export default function HeroSection() {
           <span className="block">Newton’s AI Hospital</span>
         </h1>
         <p className="text-lg md:text-2xl font-medium text-gray-200 drop-shadow-md">
-          Founded by Dr. Shiva, MBBS (Founder of Newton's AI & Newton’s AI Hospital) | Powered by Newton’s AI
+          Founded by Dr. Shiva, MBBS (Founder of Newton's AI & Newton’s AI Hospital)
+          <br />
+          Powered by Newton’s AI
         </p>
         <p className="text-xl md:text-3xl font-semibold text-teal-300 drop-shadow-md">
           Where doctors are enhanced, not replaced.
