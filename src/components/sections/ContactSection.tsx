@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 export default function ContactSection() {
   const contactDetails = [
-    { icon: MapPin, text: "Healthcare City, Innovation Drive, Tech Park, New Delhi, India 110001", href: "https://maps.google.com/?q=Healthcare+City,+Innovation+Drive,+Tech+Park,+New+Delhi,+India+110001" },
+    { icon: MapPin, text: "opposite to post office, Nandigama 521185", href: "https://maps.google.com/?q=opposite+to+post+office,+Nandigama+521185" },
     { icon: Phone, text: "+91 98765 43210", href: "tel:+919876543210" },
     { icon: Mail, text: "contact@newtonai.hospital", href: "mailto:contact@newtonai.hospital" },
   ];
@@ -59,7 +59,7 @@ export default function ContactSection() {
               className="group-hover:scale-105 transition-transform duration-500"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-black/10 opacity-70 group-hover:opacity-50 transition-opacity duration-300 flex items-center justify-center">
-              <Link href="https://maps.google.com/?q=Healthcare+City,+Innovation+Drive,+Tech+Park,+New+Delhi,+India+110001" target="_blank" rel="noopener noreferrer">
+              <Link href="https://maps.google.com/?q=opposite+to+post+office,+Nandigama+521185" target="_blank" rel="noopener noreferrer">
                 <Button variant="secondary" className="bg-white/80 hover:bg-white text-primary backdrop-blur-sm shadow-md">
                   View on Map
                 </Button>
