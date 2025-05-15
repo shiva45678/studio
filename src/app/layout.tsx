@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Newton's AI Hospital",
-  description: "Revolutionizing Healthcare in India. Founded by Dr. Shiva Kolli, MBBS | Founder of Newtons Ai.",
+  title: "Newtons AI Hospital",
+  description: "Revolutionizing Healthcare in India. Dr. Shiva Kolli, MBBS | Founder of Newtons Ai.",
 };
 
 export default function RootLayout({

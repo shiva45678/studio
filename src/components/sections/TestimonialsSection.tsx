@@ -12,7 +12,7 @@ const testimonials = [
   },
   {
     icon: UserCheck,
-    quote: "It feels like having a junior resident with 10 years of experience beside me. Newton's AI significantly reduces my workload and improves diagnostic accuracy.",
+    quote: "It feels like having a junior resident with 10 years of experience beside me. Newtons AI significantly reduces my workload and improves diagnostic accuracy.",
     author: "Dr. R. Gupta",
     role: "Resident Doctor",
   },
@@ -27,7 +27,7 @@ export default function TestimonialsSection() {
             Why Patients & Doctors Love Us
           </h2>
           <p className="text-lg text-foreground/70 max-w-2xl mx-auto">
-            Hear directly from those who have experienced the Newton's AI difference.
+            Hear directly from those who have experienced the Newtons AI difference.
           </p>
         </div>
         <div className="grid md:grid-cols-2 gap-8">

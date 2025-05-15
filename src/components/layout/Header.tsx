@@ -15,7 +15,7 @@ export default function Header() {
       <div className="container flex h-16 items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
           <HospitalIcon className="h-8 w-8 text-primary" />
-          <span className="text-xl font-bold text-primary">Newton's AI Hospital</span>
+          <span className="text-xl font-bold text-primary">Newtons AI Hospital</span>
         </Link>
         
         <nav className="hidden md:flex items-center space-x-6">
@@ -41,7 +41,7 @@ export default function Header() {
               <nav className="flex flex-col space-y-4 mt-8">
               <Link href="/" className="flex items-center gap-2 mb-4">
                 <HospitalIcon className="h-7 w-7 text-primary" />
-                <span className="text-lg font-bold text-primary">Newton's AI Hospital</span>
+                <span className="text-lg font-bold text-primary">Newtons AI Hospital</span>
               </Link>
                 {navLinks.map((link) => (
                   <Link

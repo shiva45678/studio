@@ -15,7 +15,7 @@ export default function Footer() {
           <Link href="#for-patients" className="hover:text-primary transition-colors">For Patients</Link>
           <Link href="#contact" className="hover:text-primary transition-colors">Contact</Link>
         </div>
-        <p>&copy; {currentYear} Newton's AI Hospital. All rights reserved.</p>
+        <p>&copy; {currentYear} Newtons AI Hospital. All rights reserved.</p>
       </div>
     </footer>
   );

@@ -7,14 +7,14 @@ export default function HeroSection() {
       {/* Background gradient instead of image */}
       <div className="relative z-10 container mx-auto px-4 text-center space-y-6 py-16">
         <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight drop-shadow-lg">
-          <span className="block">Newton’s AI Hospital</span>
+          <span className="block">Newtons AI Hospital</span>
         </h1>
         <div className="space-y-1"> {/* Wrapper to control spacing */}
           <p className="text-lg md:text-2xl font-medium text-gray-200 drop-shadow-md">
             Dr. Shiva Kolli, MBBS | Founder of Newtons Ai
           </p>
           <p className="text-base md:text-xl font-medium text-gray-300/90 drop-shadow-md">
-            Powered by Newton’s AI
+            Powered by Newtons AI
           </p>
         </div>
         <p className="text-xl md:text-3xl font-semibold text-teal-300 drop-shadow-md">

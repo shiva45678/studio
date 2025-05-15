@@ -16,7 +16,7 @@ export default function AiPoweredSection() {
               Built by Doctors, Powered by AI
             </h2>
             <p className="text-lg text-foreground/80 leading-relaxed">
-              At Newton’s AI Hospital, every patient gets the power of two experts:
+              At Newtons AI Hospital, every patient gets the power of two experts:
               a real doctor and an AI assistant trained on 50,000+ real cases. Our commitment is to blend human expertise with artificial intelligence for unparalleled patient care.
             </p>
             <ul className="space-y-3 inline-block text-left">
