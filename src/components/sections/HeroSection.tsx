@@ -20,7 +20,7 @@ export default function HeroSection() {
         <p className="text-xl md:text-3xl font-semibold text-teal-300 drop-shadow-md">
           Revolutionizing Healthcare in India.
         </p>
-        <div className="flex flex-col sm:flex-row justify-center gap-4 pt-4">
+        <div className="flex flex-col sm:flex-row justify-center gap-4 pt-8"> {/* Increased pt from 4 to 8 */}
           <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white/10 transition-transform hover:scale-105 shadow-lg bg-transparent hover:text-accent-foreground">
             <Link href="#ai-systems">Explore AI Systems</Link>
           </Button>

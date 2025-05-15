@@ -1,4 +1,5 @@
 import { Card, CardContent } from '@/components/ui/card';
+import { Activity } from 'lucide-react'; // Added import for an icon
 
 const actionItems = [
   { caption: "Intuitive OPD Dashboard" },
@@ -23,15 +24,10 @@ export default function LiveAiActionSection() {
         <div className="relative">
           <div className="flex overflow-x-auto space-x-6 pb-4 scrollbar-thin scrollbar-thumb-primary/50 scrollbar-track-secondary/50">
             {actionItems.map((item, index) => (
-              <Card key={index} className="min-w-[250px] md:min-w-[300px] shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden group">
-                <CardContent className="p-0">
-                  <div className="relative aspect-[4/3] w-full bg-secondary/50 flex items-center justify-center">
-                    {/* Image removed, placeholder for content if needed */}
-                    {/* <p className="text-muted-foreground text-sm">Visual here</p> */}
-                  </div>
-                  <div className="p-4 bg-background">
-                    <p className="font-medium text-center text-primary group-hover:text-accent transition-colors duration-300">{item.caption}</p>
-                  </div>
+              <Card key={index} className="min-w-[250px] md:min-w-[280px] shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden group bg-background">
+                <CardContent className="p-6 flex flex-col items-center justify-center text-center h-full aspect-[3/2]">
+                  <Activity className="h-12 w-12 text-primary group-hover:text-accent transition-colors duration-300 mb-4" />
+                  <p className="font-semibold text-md text-primary group-hover:text-accent transition-colors duration-300">{item.caption}</p>
                 </CardContent>
               </Card>
             ))}
