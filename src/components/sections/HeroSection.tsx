@@ -18,7 +18,7 @@ export default function HeroSection() {
           </p>
         </div>
         <p className="text-xl md:text-3xl font-semibold text-teal-300 drop-shadow-md">
-          Where doctors are enhanced, not replaced.
+          Revolutionizing Healthcare in India.
         </p>
         <div className="flex flex-col sm:flex-row justify-center gap-4 pt-4">
           <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground transition-transform hover:scale-105 shadow-lg">
