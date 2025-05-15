@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Newton's AI Hospital",
-  description: 'Where doctors are enhanced, not replaced. Founded by Dr. Shiva, MBBS.',
+  description: "Where doctors are enhanced, not replaced. Founded by Dr. Shiva, MBBS (founder of Newton's AI & Newton's AI Hospital).",
 };
 
 export default function RootLayout({
