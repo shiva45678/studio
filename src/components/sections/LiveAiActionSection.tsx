@@ -1,12 +1,11 @@
-import Image from 'next/image';
 import { Card, CardContent } from '@/components/ui/card';
 
 const actionItems = [
-  { src: "https://placehold.co/400x300.png", alt: "OPD Dashboard UI", hint: "OPD dashboard UI", caption: "Intuitive OPD Dashboard" },
-  { src: "https://placehold.co/400x300.png", alt: "ICU Monitoring System", hint: "ICU monitoring system", caption: "Advanced ICU Monitoring" },
-  { src: "https://placehold.co/400x300.png", alt: "Emergency Alert Dashboard", hint: "emergency alert dashboard", caption: "Critical Emergency Alerts" },
-  { src: "https://placehold.co/400x300.png", alt: "Drug Interaction Alerts", hint: "drug interaction alert", caption: "Smart Drug Safety Checks" },
-  { src: "https://placehold.co/400x300.png", alt: "Doctor using Newton's AI", hint: "doctor AI interface", caption: "Seamless Doctor Interface" },
+  { caption: "Intuitive OPD Dashboard" },
+  { caption: "Advanced ICU Monitoring" },
+  { caption: "Critical Emergency Alerts" },
+  { caption: "Smart Drug Safety Checks" },
+  { caption: "Seamless Doctor Interface" },
 ];
 
 export default function LiveAiActionSection() {
@@ -24,17 +23,11 @@ export default function LiveAiActionSection() {
         <div className="relative">
           <div className="flex overflow-x-auto space-x-6 pb-4 scrollbar-thin scrollbar-thumb-primary/50 scrollbar-track-secondary/50">
             {actionItems.map((item, index) => (
-              <Card key={index} className="min-w-[300px] md:min-w-[350px] shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden group">
+              <Card key={index} className="min-w-[250px] md:min-w-[300px] shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden group">
                 <CardContent className="p-0">
-                  <div className="relative aspect-[4/3] w-full">
-                    <Image
-                      src={item.src}
-                      alt={item.alt}
-                      data-ai-hint={item.hint}
-                      layout="fill"
-                      objectFit="cover"
-                      className="group-hover:scale-105 transition-transform duration-300"
-                    />
+                  <div className="relative aspect-[4/3] w-full bg-secondary/50 flex items-center justify-center">
+                    {/* Image removed, placeholder for content if needed */}
+                    {/* <p className="text-muted-foreground text-sm">Visual here</p> */}
                   </div>
                   <div className="p-4 bg-background">
                     <p className="font-medium text-center text-primary group-hover:text-accent transition-colors duration-300">{item.caption}</p>
@@ -43,7 +36,6 @@ export default function LiveAiActionSection() {
               </Card>
             ))}
           </div>
-           {/* Optional: Add custom scroll arrows if needed, or rely on native scrollbar */}
         </div>
       </div>
     </section>
